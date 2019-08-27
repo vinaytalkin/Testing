@@ -1,6 +1,0 @@
-INFO:root:Log File startedE:\Testing\Logs\Test_21_30_40_25_08_2019
-INFO:root:====================Test started===========================
-INFO:root:Constructor initialise to call self variables
-INFO:root:Launching Browser- Success: Chrome
-INFO:root:Opening URL success: http://newon.docagent.net
-INFO:root:Element Located and value Entered : admin
