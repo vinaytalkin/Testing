@@ -1,0 +1,14 @@
+INFO:root:Log File startedE:/Testing/ZBase_Framework/Logs/LogsTest_%H_%M_%S_%d_%m_%Y.log
+INFO:root:====================Excel Test started===========================
+INFO:root:Excel construction was created and inist
+INFO:root:connection was success
+INFO:root:workssheet was active Sheet1
+INFO:root:connection was success
+INFO:root:workssheet was active Sheet1
+INFO:root:Log File startedE:/Testing/ZBase_Framework/Logs/LogsTest_%H_%M_%S_%d_%m_%Y.log
+INFO:root:====================Test started===========================
+INFO:root:Constructor initialise to call self variables
+INFO:root:To Launch URL setting the browser to open :Chrome
+INFO:root:Broswer launch success
+INFO:root:Opening URL success: http://newon.docagent.net
+INFO:root:Element Located and value Entered : admin
