@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="048029d4-29f7-42c9-854d-275c9e1857f4" name="Default Changelist" comment="" />
+    <list default="true" id="048029d4-29f7-42c9-854d-275c9e1857f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ZBase_Framework/Drivers/IEDriverServer.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZBase_Framework/Drivers/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZBase_Framework/Drivers/msedgedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZBase_Framework/Drivers/operadriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testdata/Login.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Testdata/Login.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZBase_Framework/Logs/LogsTest_17_04_01_27_08_2019.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZBase_Framework/Utilities/ConfigFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZBase_Framework/Utilities/ConfigFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZBase_Framework/Utilities/DataRead_writefile.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZBase_Framework/Utilities/DataRead_writefile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZBase_Framework/Utilities/UIObjects.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZBase_Framework/Utilities/UIObjects.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +26,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
   <component name="ProjectId" id="1PpGzXinuFBw60XpB4TeNT4qWKX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/cmd/git.exe" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -70,25 +91,56 @@
       <option name="presentableId" value="Default" />
       <updated>1566563888850</updated>
     </task>
+    <task id="LOCAL-00001" summary="Created Logs for excel read and write connection - tested logs">
+      <created>1566905778726</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566905778726</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Created Logs for excel read and write connection - tested logs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Logs for excel read and write connection - tested logs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/ZBase_Framework/Utilities/DataRead_writefile.py</url>
-          <line>29</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ZBase_Framework/Utilities/DataRead_writefile.py</url>
-          <line>44</line>
+          <line>50</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/ZBase_Framework/Utilities/DataRead_writefile.py</url>
-          <line>45</line>
+          <line>51</line>
           <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ZBase_Framework/Utilities/DataRead_writefile.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ZBase_Framework/Utilities/DataRead_writefile.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

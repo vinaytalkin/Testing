@@ -40,9 +40,24 @@ class Utilities(Logging,Excel):
                 self.driver = webdriver.Chrome(executable_path=drivepath.chromedriverpath)
                 driver = self.driver
                 driver.maximize_window()
-                #driver.close()
+            elif self.drowsername == "Firefox":
+                self.driver = webdriver.Firefox(executable_path= drivepath.Firefoxdriverpath)
+                driver = self.driver
+                driver.maximize_window()
+            elif self.drowsername == "Ie":
+                self.driver = webdriver.Firefox(executable_path=drivepath.Iedriverpath)
+                driver = self.driver
+                driver.maximize_window()
+            elif self.drowsername == "Edgebrowser":
+                self.driver = webdriver.Firefox(executable_path=drivepath.Edgebrowserdriverpath)
+                driver = self.driver
+                driver.maximize_window()
+            elif self.drowsername == "Opera":
+                self.driver = webdriver.Firefox(executable_path=drivepath.Operadriverpath)
+                driver = self.driver
+                driver.maximize_window()
             else:
-                pass
+                logging.info("No browser found please check the browser name in correct format")
         except:
             logging.info("Unable to Load driver for the browser")
             return driver
