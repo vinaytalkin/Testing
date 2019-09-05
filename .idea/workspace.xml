@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="048029d4-29f7-42c9-854d-275c9e1857f4" name="Default Changelist" comment="1.Added ie, firefox, Opera, edge browser&#10;2.Added code for that in Utility &#10;3.Added path in config file&#10;4.Added test data according to that">
-      <change afterPath="$PROJECT_DIR$/ZBase_Framework/Logs/LogsTest_20_54_09_27_08_2019.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZBase_Framework/Utilities/DriversFactory.py" afterDir="false" />
+    <list default="true" id="048029d4-29f7-42c9-854d-275c9e1857f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Test_Files/geckodriver.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_Files/Login_Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Files/Login_Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_Repository/Login_Page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Repository/Login_Page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Testdata/Login.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Testdata/Login.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZBase_Framework/Logs/LogsTest_17_15_42_27_08_2019.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ZBase_Framework/Utilities/ConfigFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZBase_Framework/Utilities/ConfigFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZBase_Framework/Utilities/DataRead_writefile.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZBase_Framework/Utilities/DataRead_writefile.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZBase_Framework/Utilities/Loghandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZBase_Framework/Utilities/Loghandler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZBase_Framework/Utilities/UIObjects.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZBase_Framework/Utilities/UIObjects.py" afterDir="false" />
     </list>
@@ -36,7 +37,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/cmd/git.exe" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -51,7 +52,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="UIObjects" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Login_Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Testing" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -59,11 +60,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ZBase_Framework/Utilities" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test_Files" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ZBase_Framework/Utilities/UIObjects.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test_Files/Login_Test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -74,7 +75,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.UIObjects" />
+        <item itemvalue="Python.Login_Test" />
       </list>
     </recent_temporary>
   </component>
@@ -110,12 +111,54 @@
       <option name="project" value="LOCAL" />
       <updated>1566908060147</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Log file has changed to new&#10;changes in Utility file added some functions &#10;mouse hover">
+      <created>1566925599787</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1566925599787</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -125,45 +168,56 @@
         </entry>
       </map>
     </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Created Logs for excel read and write connection - tested logs" />
     <MESSAGE value="1.Added ie, firefox, Opera, edge browser&#10;2.Added code for that in Utility &#10;3.Added path in config file&#10;4.Added test data according to that" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.Added ie, firefox, Opera, edge browser&#10;2.Added code for that in Utility &#10;3.Added path in config file&#10;4.Added test data according to that" />
+    <MESSAGE value="Log file has changed to new&#10;changes in Utility file added some functions &#10;mouse hover" />
+    <option name="LAST_COMMIT_MESSAGE" value="Log file has changed to new&#10;changes in Utility file added some functions &#10;mouse hover" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/ZBase_Framework/Utilities/DataRead_writefile.py</url>
-          <line>50</line>
-          <option name="timeStamp" value="28" />
+          <line>62</line>
+          <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ZBase_Framework/Utilities/DataRead_writefile.py</url>
-          <line>51</line>
-          <option name="timeStamp" value="29" />
+          <url>file://$PROJECT_DIR$/ZBase_Framework/Utilities/UIObjects.py</url>
+          <line>107</line>
+          <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ZBase_Framework/Utilities/DataRead_writefile.py</url>
+          <url>file://$PROJECT_DIR$/ZBase_Framework/Utilities/UIObjects.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Test_Repository/Login_Page.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Test_Files/Login_Test.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Test_Files/Login_Test.py</url>
           <line>21</line>
-          <option name="timeStamp" value="30" />
+          <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ZBase_Framework/Utilities/DataRead_writefile.py</url>
+          <url>file://$PROJECT_DIR$/Test_Repository/Login_Page.py</url>
           <line>38</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ZBase_Framework/Utilities/UIObjects.py</url>
-          <line>93</line>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ZBase_Framework/Utilities/UIObjects.py</url>
-          <line>115</line>
-          <option name="timeStamp" value="36" />
+          <option name="timeStamp" value="67" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
