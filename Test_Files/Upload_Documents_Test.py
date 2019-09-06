@@ -6,9 +6,10 @@ import logging
 import unittest
 
 #Logging()
-class Login_Test(unittest.TestCase):
-    def Logintest(self):
-        Logging()
+class Upload_Documents(unittest.TestCase):
+
+    @classmethod
+    def setUp(self):
         logging.info("====================Test started===========================")
         logging.info("$$$Login test started")
         row,col,sheet,wb = Excel.excel_sheet(self,'Login','Sheet1')
@@ -19,11 +20,12 @@ class Login_Test(unittest.TestCase):
             Loginpage.userid(self,'',sheet.cell(row = nooftimes,column=4).value)
             Loginpage.password(self,'',sheet.cell(row = nooftimes,column=5).value)
             Loginpage.click_login(self)
-            #Loginpage.click_wfinbox(self)
+    def Test_UploadDoc(self):
+        pass
 
 
-if __name__ == "__main__":
-    test = Login_Test()
-    test.Logintest()
 
 
+    @classmethod
+    def tearDownClass(cls):
+        print("all execution closes")

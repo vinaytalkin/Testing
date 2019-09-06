@@ -165,12 +165,16 @@ class Utilities(Logging):
     # ----------------------#### Screenshot from Page ####--------------------------------#
 
     # ----------------------#### Mouse Hover ####--------------------------------#
-    def mousehover(self,retlocator,):
-        self.retlocator = retlocator
-        hover = ActionChains(self.driver)
-        hover.move_to_element(self.retlocator).perform()
+    def mousehover(self,locator,moveto):
+        weblocator = self.locator.split('=')
+        if weblocator[0] == "XPath":
+            self.retlocator = self.driver.find_elements_by_xpath(weblocator[1])
+            hover = ActionChains(self.driver)
+            hover.move_to_element(self.retlocator).perform()
         #hover = ActionChains().move_to_element(self.retlocator)
         #hover.perform()
+
+
 
     # ----------------------#### Scroll down and up ####--------------------------------#
 
