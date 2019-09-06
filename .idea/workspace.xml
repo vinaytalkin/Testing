@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="048029d4-29f7-42c9-854d-275c9e1857f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Test_Files/geckodriver.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/TestResults___main__.Example_2019-09-06_17-24-30.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Files/Upload_Documents_Test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Files/sample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Repository/Upload_Documents_Page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZBase_Framework/Utilities/HTMLTestRunner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZBase_Framework/Utilities/sameple.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test_Files/Login_Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Files/Login_Test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Repository/Login_Page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Repository/Login_Page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testdata/Login.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Testdata/Login.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZBase_Framework/Utilities/ConfigFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZBase_Framework/Utilities/ConfigFile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZBase_Framework/Utilities/DataRead_writefile.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZBase_Framework/Utilities/DataRead_writefile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZBase_Framework/Utilities/Loghandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZBase_Framework/Utilities/Loghandler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZBase_Framework/Utilities/UIObjects.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZBase_Framework/Utilities/UIObjects.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,8 +52,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Login_Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.sample">
+    <configuration name="sample" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Testing" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -64,7 +65,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test_Files/Login_Test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test_Files/sample.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -73,9 +74,24 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for sample.Example" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Testing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test_Files" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;sample.Example&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Login_Test" />
+        <item itemvalue="Python.sample" />
+        <item itemvalue="Python tests.Unittests for sample.Example" />
       </list>
     </recent_temporary>
   </component>
@@ -118,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566925599787</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="changed the frame work">
+      <created>1567708412180</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1567708412180</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -179,7 +202,8 @@
     <MESSAGE value="Created Logs for excel read and write connection - tested logs" />
     <MESSAGE value="1.Added ie, firefox, Opera, edge browser&#10;2.Added code for that in Utility &#10;3.Added path in config file&#10;4.Added test data according to that" />
     <MESSAGE value="Log file has changed to new&#10;changes in Utility file added some functions &#10;mouse hover" />
-    <option name="LAST_COMMIT_MESSAGE" value="Log file has changed to new&#10;changes in Utility file added some functions &#10;mouse hover" />
+    <MESSAGE value="changed the frame work" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed the frame work" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -206,18 +230,38 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Test_Files/Login_Test.py</url>
-          <line>22</line>
+          <line>21</line>
           <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Test_Files/Login_Test.py</url>
-          <line>21</line>
+          <line>20</line>
           <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Test_Repository/Login_Page.py</url>
           <line>38</line>
           <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Test_Files/sample.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Test_Files/sample.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Test_Files/sample.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Test_Repository/Upload_Documents_Page.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="72" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
